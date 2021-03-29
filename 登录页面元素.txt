@@ -1,0 +1,8 @@
+*** Variables ***
+${BTN_README}     com.eviwjapp_cn:id/rb_me    #我的
+${LNK_LOGINNAME}    com.eviwjapp_cn:id/tv_me_user_name    #我的页面进入登录页面
+${TXT_USERNAME}    com.eviwjapp_cn:id/et_phone_num    #用户名输入框
+${TXT_PASSWORD}    com.eviwjapp_cn:id/et_password    #密码输入框
+${BTN_LOGIN}      com.eviwjapp_cn:id/iv_login    #登录按钮
+${IMG_EVENT}      com.eviwjapp_cn:id/iv_campaign_image    #首页弹出的活动图片
+${IMG_ERROR}      com.eviwjapp_cn:id/bt_close    #首页弹出的登录提示

@@ -1,0 +1,29 @@
+*** Settings ***
+Library           AppiumLibrary
+
+*** Keywords ***
+openApp
+    Open Application    http://localhost:4726/wd/hub    platformName=Android    platformVersion=10.0.0    deviceName=c4ffda57    appPackage=com.eviwjapp_cn    appActivity=.splash.SplashActivity    noReset=True
+
+click
+    [Arguments]    ${element}
+    Wait Until Element Is Visible    ${element}    30
+    Click Element    ${element}
+
+getValue
+    [Arguments]    ${element}
+    Wait Until Element Is Visible    ${element}    30
+    ${text}    Get Text    ${element}
+    [Return]    ${text}
+
+setValue
+    [Arguments]    ${element}    ${value}
+    Wait Until Element Is Visible    ${element}    30
+    Clear Text    ${element}
+    Input Text    ${element}    ${value}
+
+setPassWord
+    [Arguments]    ${element}    ${value}
+    Wait Until Element Is Visible    ${element}    30
+    Clear Text    ${element}
+    Input Password    ${element}    ${value}

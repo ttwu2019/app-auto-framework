@@ -1,0 +1,3 @@
+*** Variables ***
+${LNK_SETTING}    com.eviwjapp_cn:id/rl_system    #系统设置
+${BTN_LOGOUT}     com.eviwjapp_cn:id/layout_loginOut    #退出登录
