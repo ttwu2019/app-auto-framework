@@ -1,2 +1,2 @@
-# app-auto-framework
-app auto by framework
+# app-auto-robotframework
+app auto by robotframework
